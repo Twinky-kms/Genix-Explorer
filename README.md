@@ -102,11 +102,6 @@ The wallet connected to Ciquidus must be running with atleast the following flag
 
     -daemon -txindex
 
-### Donate
-
-    CHC: CLkWg5YSLod772uLzsFRxHgHiWVGAJSezm
-    BTC: 1J8Chi5teDJrvBtSuQhioNCHfTNBCcCrPx
-
 ### Known Issues
 
 **script is already running.**
@@ -135,6 +130,7 @@ Where [SIZE] is an integer higher than the default.
 
 ### License
 
+Copyright (c) 2019, The Genix Ecosystem  
 Copyright (c) 2017, The Chaincoin Community  
 Copyright (c) 2015, Iquidus Technology  
 Copyright (c) 2015, Luke Williams  
