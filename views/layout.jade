@@ -40,8 +40,8 @@ html
           }});
         }
         function update_btc(){
-          $.ajax({url: 'https://swiftex.co/api/v2/tickers/genix-btc', success: function(json_btc){
-            $("#lastPrice").text(parseFloat(json_btc.ticker.last).toFixed(8));
+          $.ajax({url: 'http://explorer.genix.cx:3000/genixprices/3', success: function(json_btc){
+              $("#lastPrice").text(parseFloat(json_btc.n).toFixed(8));
           }});
         }
 
@@ -182,7 +182,7 @@ html
                 else
                   label#difficulty -
         .col-md-2
-         .panel.panel-default.hidden-sm.hidden-xs
+          .panel.panel-default.hidden-sm.hidden-xs
             .panel-heading
               strong #{settings.locale.masternodecount}
             .panel-body
